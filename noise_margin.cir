@@ -1,0 +1,42 @@
+*Code to measure the high and low noise margins
+* Minimum Inverter
+.subckt inv supply Inp Output
+*  This subcircuit defines a CMOS inverter with equal n and p widths
+MP1 Output Inp Supply Supply cmosp
++ L=0.18U W=1.559U AD = 0.56124P AS = 0.56124P PD = 3.838U PS = 3.838U
+MN1 Output Inp 0      0      cmosn
++ L=0.18U W=0.523U AD = 0.18828P AS = 0.18828P PD = 1.766U PS = 1.766U
+.ends
+
+vdd supply 0 dc 1.8
+
+*  Device under test
+x3  supply Ck dutout inv
+
+* Load Capacitor
+C3 dutout 0 0.05pF
+
+* Input voltage
+VCk Ck 0 dc
+.include models-180nm
+
+*TRANSIENT ANALYSIS with pulse inputs
+*VCk  Ck   0 DC 0 PULSE(0 1.8 0nS 20pS 20pS 4nS 8.0nS)
+*.tran 1pS 35nS 0nS
+.dc VCk 0 1.8 0.001
+.control
+run
+*plot 4.0+V(Ck) V(dutout)
+plot V(dutout) vs V(Ck)
+let der = deriv(V(dutout))
+meas dc VIL find V(Ck) when der = -1
+meas dc VIH find V(Ck) when der = -1 rise = last
+meas dc VOL find V(dutout) when V(CK) = VIH
+meas dc VOH find V(dutout) when V(Ck) = VIL
+let highnoisemargin = VOH - VIH
+let lownoisemargin = VIL - VOL
+print highnoisemargin
+print lownoisemargin
+
+.endc
+.end
