@@ -1,0 +1,1471 @@
+|DUT
+input_vector[0] => brentkung:add_instance.cin
+input_vector[1] => brentkung:add_instance.a[0]
+input_vector[2] => brentkung:add_instance.a[1]
+input_vector[3] => brentkung:add_instance.a[2]
+input_vector[4] => brentkung:add_instance.a[3]
+input_vector[5] => brentkung:add_instance.a[4]
+input_vector[6] => brentkung:add_instance.a[5]
+input_vector[7] => brentkung:add_instance.a[6]
+input_vector[8] => brentkung:add_instance.a[7]
+input_vector[9] => brentkung:add_instance.a[8]
+input_vector[10] => brentkung:add_instance.a[9]
+input_vector[11] => brentkung:add_instance.a[10]
+input_vector[12] => brentkung:add_instance.a[11]
+input_vector[13] => brentkung:add_instance.a[12]
+input_vector[14] => brentkung:add_instance.a[13]
+input_vector[15] => brentkung:add_instance.a[14]
+input_vector[16] => brentkung:add_instance.a[15]
+input_vector[17] => brentkung:add_instance.a[16]
+input_vector[18] => brentkung:add_instance.a[17]
+input_vector[19] => brentkung:add_instance.a[18]
+input_vector[20] => brentkung:add_instance.a[19]
+input_vector[21] => brentkung:add_instance.a[20]
+input_vector[22] => brentkung:add_instance.a[21]
+input_vector[23] => brentkung:add_instance.a[22]
+input_vector[24] => brentkung:add_instance.a[23]
+input_vector[25] => brentkung:add_instance.a[24]
+input_vector[26] => brentkung:add_instance.a[25]
+input_vector[27] => brentkung:add_instance.a[26]
+input_vector[28] => brentkung:add_instance.a[27]
+input_vector[29] => brentkung:add_instance.a[28]
+input_vector[30] => brentkung:add_instance.a[29]
+input_vector[31] => brentkung:add_instance.a[30]
+input_vector[32] => brentkung:add_instance.a[31]
+input_vector[33] => brentkung:add_instance.b[0]
+input_vector[34] => brentkung:add_instance.b[1]
+input_vector[35] => brentkung:add_instance.b[2]
+input_vector[36] => brentkung:add_instance.b[3]
+input_vector[37] => brentkung:add_instance.b[4]
+input_vector[38] => brentkung:add_instance.b[5]
+input_vector[39] => brentkung:add_instance.b[6]
+input_vector[40] => brentkung:add_instance.b[7]
+input_vector[41] => brentkung:add_instance.b[8]
+input_vector[42] => brentkung:add_instance.b[9]
+input_vector[43] => brentkung:add_instance.b[10]
+input_vector[44] => brentkung:add_instance.b[11]
+input_vector[45] => brentkung:add_instance.b[12]
+input_vector[46] => brentkung:add_instance.b[13]
+input_vector[47] => brentkung:add_instance.b[14]
+input_vector[48] => brentkung:add_instance.b[15]
+input_vector[49] => brentkung:add_instance.b[16]
+input_vector[50] => brentkung:add_instance.b[17]
+input_vector[51] => brentkung:add_instance.b[18]
+input_vector[52] => brentkung:add_instance.b[19]
+input_vector[53] => brentkung:add_instance.b[20]
+input_vector[54] => brentkung:add_instance.b[21]
+input_vector[55] => brentkung:add_instance.b[22]
+input_vector[56] => brentkung:add_instance.b[23]
+input_vector[57] => brentkung:add_instance.b[24]
+input_vector[58] => brentkung:add_instance.b[25]
+input_vector[59] => brentkung:add_instance.b[26]
+input_vector[60] => brentkung:add_instance.b[27]
+input_vector[61] => brentkung:add_instance.b[28]
+input_vector[62] => brentkung:add_instance.b[29]
+input_vector[63] => brentkung:add_instance.b[30]
+input_vector[64] => brentkung:add_instance.b[31]
+output_vector[0] << brentkung:add_instance.s[0]
+output_vector[1] << brentkung:add_instance.s[1]
+output_vector[2] << brentkung:add_instance.s[2]
+output_vector[3] << brentkung:add_instance.s[3]
+output_vector[4] << brentkung:add_instance.s[4]
+output_vector[5] << brentkung:add_instance.s[5]
+output_vector[6] << brentkung:add_instance.s[6]
+output_vector[7] << brentkung:add_instance.s[7]
+output_vector[8] << brentkung:add_instance.s[8]
+output_vector[9] << brentkung:add_instance.s[9]
+output_vector[10] << brentkung:add_instance.s[10]
+output_vector[11] << brentkung:add_instance.s[11]
+output_vector[12] << brentkung:add_instance.s[12]
+output_vector[13] << brentkung:add_instance.s[13]
+output_vector[14] << brentkung:add_instance.s[14]
+output_vector[15] << brentkung:add_instance.s[15]
+output_vector[16] << brentkung:add_instance.s[16]
+output_vector[17] << brentkung:add_instance.s[17]
+output_vector[18] << brentkung:add_instance.s[18]
+output_vector[19] << brentkung:add_instance.s[19]
+output_vector[20] << brentkung:add_instance.s[20]
+output_vector[21] << brentkung:add_instance.s[21]
+output_vector[22] << brentkung:add_instance.s[22]
+output_vector[23] << brentkung:add_instance.s[23]
+output_vector[24] << brentkung:add_instance.s[24]
+output_vector[25] << brentkung:add_instance.s[25]
+output_vector[26] << brentkung:add_instance.s[26]
+output_vector[27] << brentkung:add_instance.s[27]
+output_vector[28] << brentkung:add_instance.s[28]
+output_vector[29] << brentkung:add_instance.s[29]
+output_vector[30] << brentkung:add_instance.s[30]
+output_vector[31] << brentkung:add_instance.s[31]
+output_vector[32] << brentkung:add_instance.cout
+
+
+|DUT|brentkung:add_instance
+a[0] => xorgate:xor_gates_p0:0:xor_i.A
+a[0] => Cin_map_G:cmapg.A
+a[1] => xorgate:xor_gates_p0:1:xor_i.A
+a[1] => andgate:and_gates_g0:1:and_i.A
+a[2] => xorgate:xor_gates_p0:2:xor_i.A
+a[2] => andgate:and_gates_g0:2:and_i.A
+a[3] => xorgate:xor_gates_p0:3:xor_i.A
+a[3] => andgate:and_gates_g0:3:and_i.A
+a[4] => xorgate:xor_gates_p0:4:xor_i.A
+a[4] => andgate:and_gates_g0:4:and_i.A
+a[5] => xorgate:xor_gates_p0:5:xor_i.A
+a[5] => andgate:and_gates_g0:5:and_i.A
+a[6] => xorgate:xor_gates_p0:6:xor_i.A
+a[6] => andgate:and_gates_g0:6:and_i.A
+a[7] => xorgate:xor_gates_p0:7:xor_i.A
+a[7] => andgate:and_gates_g0:7:and_i.A
+a[8] => xorgate:xor_gates_p0:8:xor_i.A
+a[8] => andgate:and_gates_g0:8:and_i.A
+a[9] => xorgate:xor_gates_p0:9:xor_i.A
+a[9] => andgate:and_gates_g0:9:and_i.A
+a[10] => xorgate:xor_gates_p0:10:xor_i.A
+a[10] => andgate:and_gates_g0:10:and_i.A
+a[11] => xorgate:xor_gates_p0:11:xor_i.A
+a[11] => andgate:and_gates_g0:11:and_i.A
+a[12] => xorgate:xor_gates_p0:12:xor_i.A
+a[12] => andgate:and_gates_g0:12:and_i.A
+a[13] => xorgate:xor_gates_p0:13:xor_i.A
+a[13] => andgate:and_gates_g0:13:and_i.A
+a[14] => xorgate:xor_gates_p0:14:xor_i.A
+a[14] => andgate:and_gates_g0:14:and_i.A
+a[15] => xorgate:xor_gates_p0:15:xor_i.A
+a[15] => andgate:and_gates_g0:15:and_i.A
+a[16] => xorgate:xor_gates_p0:16:xor_i.A
+a[16] => andgate:and_gates_g0:16:and_i.A
+a[17] => xorgate:xor_gates_p0:17:xor_i.A
+a[17] => andgate:and_gates_g0:17:and_i.A
+a[18] => xorgate:xor_gates_p0:18:xor_i.A
+a[18] => andgate:and_gates_g0:18:and_i.A
+a[19] => xorgate:xor_gates_p0:19:xor_i.A
+a[19] => andgate:and_gates_g0:19:and_i.A
+a[20] => xorgate:xor_gates_p0:20:xor_i.A
+a[20] => andgate:and_gates_g0:20:and_i.A
+a[21] => xorgate:xor_gates_p0:21:xor_i.A
+a[21] => andgate:and_gates_g0:21:and_i.A
+a[22] => xorgate:xor_gates_p0:22:xor_i.A
+a[22] => andgate:and_gates_g0:22:and_i.A
+a[23] => xorgate:xor_gates_p0:23:xor_i.A
+a[23] => andgate:and_gates_g0:23:and_i.A
+a[24] => xorgate:xor_gates_p0:24:xor_i.A
+a[24] => andgate:and_gates_g0:24:and_i.A
+a[25] => xorgate:xor_gates_p0:25:xor_i.A
+a[25] => andgate:and_gates_g0:25:and_i.A
+a[26] => xorgate:xor_gates_p0:26:xor_i.A
+a[26] => andgate:and_gates_g0:26:and_i.A
+a[27] => xorgate:xor_gates_p0:27:xor_i.A
+a[27] => andgate:and_gates_g0:27:and_i.A
+a[28] => xorgate:xor_gates_p0:28:xor_i.A
+a[28] => andgate:and_gates_g0:28:and_i.A
+a[29] => xorgate:xor_gates_p0:29:xor_i.A
+a[29] => andgate:and_gates_g0:29:and_i.A
+a[30] => xorgate:xor_gates_p0:30:xor_i.A
+a[30] => andgate:and_gates_g0:30:and_i.A
+a[31] => xorgate:xor_gates_p0:31:xor_i.A
+a[31] => andgate:and_gates_g0:31:and_i.A
+b[0] => xorgate:xor_gates_p0:0:xor_i.B
+b[0] => Cin_map_G:cmapg.B
+b[1] => xorgate:xor_gates_p0:1:xor_i.B
+b[1] => andgate:and_gates_g0:1:and_i.B
+b[2] => xorgate:xor_gates_p0:2:xor_i.B
+b[2] => andgate:and_gates_g0:2:and_i.B
+b[3] => xorgate:xor_gates_p0:3:xor_i.B
+b[3] => andgate:and_gates_g0:3:and_i.B
+b[4] => xorgate:xor_gates_p0:4:xor_i.B
+b[4] => andgate:and_gates_g0:4:and_i.B
+b[5] => xorgate:xor_gates_p0:5:xor_i.B
+b[5] => andgate:and_gates_g0:5:and_i.B
+b[6] => xorgate:xor_gates_p0:6:xor_i.B
+b[6] => andgate:and_gates_g0:6:and_i.B
+b[7] => xorgate:xor_gates_p0:7:xor_i.B
+b[7] => andgate:and_gates_g0:7:and_i.B
+b[8] => xorgate:xor_gates_p0:8:xor_i.B
+b[8] => andgate:and_gates_g0:8:and_i.B
+b[9] => xorgate:xor_gates_p0:9:xor_i.B
+b[9] => andgate:and_gates_g0:9:and_i.B
+b[10] => xorgate:xor_gates_p0:10:xor_i.B
+b[10] => andgate:and_gates_g0:10:and_i.B
+b[11] => xorgate:xor_gates_p0:11:xor_i.B
+b[11] => andgate:and_gates_g0:11:and_i.B
+b[12] => xorgate:xor_gates_p0:12:xor_i.B
+b[12] => andgate:and_gates_g0:12:and_i.B
+b[13] => xorgate:xor_gates_p0:13:xor_i.B
+b[13] => andgate:and_gates_g0:13:and_i.B
+b[14] => xorgate:xor_gates_p0:14:xor_i.B
+b[14] => andgate:and_gates_g0:14:and_i.B
+b[15] => xorgate:xor_gates_p0:15:xor_i.B
+b[15] => andgate:and_gates_g0:15:and_i.B
+b[16] => xorgate:xor_gates_p0:16:xor_i.B
+b[16] => andgate:and_gates_g0:16:and_i.B
+b[17] => xorgate:xor_gates_p0:17:xor_i.B
+b[17] => andgate:and_gates_g0:17:and_i.B
+b[18] => xorgate:xor_gates_p0:18:xor_i.B
+b[18] => andgate:and_gates_g0:18:and_i.B
+b[19] => xorgate:xor_gates_p0:19:xor_i.B
+b[19] => andgate:and_gates_g0:19:and_i.B
+b[20] => xorgate:xor_gates_p0:20:xor_i.B
+b[20] => andgate:and_gates_g0:20:and_i.B
+b[21] => xorgate:xor_gates_p0:21:xor_i.B
+b[21] => andgate:and_gates_g0:21:and_i.B
+b[22] => xorgate:xor_gates_p0:22:xor_i.B
+b[22] => andgate:and_gates_g0:22:and_i.B
+b[23] => xorgate:xor_gates_p0:23:xor_i.B
+b[23] => andgate:and_gates_g0:23:and_i.B
+b[24] => xorgate:xor_gates_p0:24:xor_i.B
+b[24] => andgate:and_gates_g0:24:and_i.B
+b[25] => xorgate:xor_gates_p0:25:xor_i.B
+b[25] => andgate:and_gates_g0:25:and_i.B
+b[26] => xorgate:xor_gates_p0:26:xor_i.B
+b[26] => andgate:and_gates_g0:26:and_i.B
+b[27] => xorgate:xor_gates_p0:27:xor_i.B
+b[27] => andgate:and_gates_g0:27:and_i.B
+b[28] => xorgate:xor_gates_p0:28:xor_i.B
+b[28] => andgate:and_gates_g0:28:and_i.B
+b[29] => xorgate:xor_gates_p0:29:xor_i.B
+b[29] => andgate:and_gates_g0:29:and_i.B
+b[30] => xorgate:xor_gates_p0:30:xor_i.B
+b[30] => andgate:and_gates_g0:30:and_i.B
+b[31] => xorgate:xor_gates_p0:31:xor_i.B
+b[31] => andgate:and_gates_g0:31:and_i.B
+s[0] <= xorgate:sum_xors:0:sum_xor_i.uneq
+s[1] <= xorgate:sum_xors:1:sum_xor_i.uneq
+s[2] <= xorgate:sum_xors:2:sum_xor_i.uneq
+s[3] <= xorgate:sum_xors:3:sum_xor_i.uneq
+s[4] <= xorgate:sum_xors:4:sum_xor_i.uneq
+s[5] <= xorgate:sum_xors:5:sum_xor_i.uneq
+s[6] <= xorgate:sum_xors:6:sum_xor_i.uneq
+s[7] <= xorgate:sum_xors:7:sum_xor_i.uneq
+s[8] <= xorgate:sum_xors:8:sum_xor_i.uneq
+s[9] <= xorgate:sum_xors:9:sum_xor_i.uneq
+s[10] <= xorgate:sum_xors:10:sum_xor_i.uneq
+s[11] <= xorgate:sum_xors:11:sum_xor_i.uneq
+s[12] <= xorgate:sum_xors:12:sum_xor_i.uneq
+s[13] <= xorgate:sum_xors:13:sum_xor_i.uneq
+s[14] <= xorgate:sum_xors:14:sum_xor_i.uneq
+s[15] <= xorgate:sum_xors:15:sum_xor_i.uneq
+s[16] <= xorgate:sum_xors:16:sum_xor_i.uneq
+s[17] <= xorgate:sum_xors:17:sum_xor_i.uneq
+s[18] <= xorgate:sum_xors:18:sum_xor_i.uneq
+s[19] <= xorgate:sum_xors:19:sum_xor_i.uneq
+s[20] <= xorgate:sum_xors:20:sum_xor_i.uneq
+s[21] <= xorgate:sum_xors:21:sum_xor_i.uneq
+s[22] <= xorgate:sum_xors:22:sum_xor_i.uneq
+s[23] <= xorgate:sum_xors:23:sum_xor_i.uneq
+s[24] <= xorgate:sum_xors:24:sum_xor_i.uneq
+s[25] <= xorgate:sum_xors:25:sum_xor_i.uneq
+s[26] <= xorgate:sum_xors:26:sum_xor_i.uneq
+s[27] <= xorgate:sum_xors:27:sum_xor_i.uneq
+s[28] <= xorgate:sum_xors:28:sum_xor_i.uneq
+s[29] <= xorgate:sum_xors:29:sum_xor_i.uneq
+s[30] <= xorgate:sum_xors:30:sum_xor_i.uneq
+s[31] <= xorgate:sum_xors:31:sum_xor_i.uneq
+cout <= abcgate:abc_c32.abc
+cin => Cin_map_G:cmapg.Cin
+cin => abcgate:abc_c2.C
+cin => abcgate:abc_c4.C
+cin => abcgate:abc_c8.C
+cin => abcgate:abc_c16.C
+cin => abcgate:abc_c32.C
+cin => xorgate:sum_xors:0:sum_xor_i.B
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:0:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:1:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:2:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:3:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:4:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:5:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:6:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:7:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:8:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:9:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:10:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:11:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:12:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:13:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:14:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:15:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:16:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:17:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:18:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:19:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:20:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:21:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:22:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:23:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:24:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:25:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:26:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:27:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:28:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:29:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:30:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\xor_gates_p0:31:xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:1:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:2:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:3:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:4:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:5:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:6:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:7:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:8:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:9:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:10:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:11:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:12:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:13:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:14:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:15:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:16:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:17:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:18:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:19:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:20:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:21:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:22:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:23:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:24:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:25:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:26:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:27:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:28:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:29:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:30:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_g0:31:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|Cin_map_G:cmapg
+A => Bit0_G.IN0
+A => Bit0_G.IN0
+B => Bit0_G.IN1
+B => Bit0_G.IN1
+Cin => Bit0_G.IN1
+Bit0_G <= Bit0_G.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g1:0:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g1:1:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g1:2:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g1:3:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g1:4:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g1:5:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g1:6:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g1:7:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g1:8:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g1:9:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g1:10:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g1:11:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g1:12:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g1:13:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g1:14:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g1:15:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p1:0:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p1:1:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p1:2:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p1:3:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p1:4:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p1:5:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p1:6:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p1:7:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p1:8:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p1:9:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p1:10:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p1:11:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p1:12:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p1:13:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p1:14:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p1:15:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g2:0:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g2:1:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g2:2:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g2:3:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g2:4:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g2:5:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g2:6:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g2:7:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p2:0:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p2:1:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p2:2:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p2:3:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p2:4:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p2:5:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p2:6:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p2:7:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g3:0:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g3:1:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g3:2:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g3:3:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p3:0:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p3:1:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p3:2:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p3:3:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g4:0:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:\abc_gates_g4:1:abc_i
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p4:0:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:\and_gates_p4:1:and_i
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_gates_g5
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|andgate:and_gates_p5
+A => prod.IN0
+B => prod.IN1
+prod <= prod.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c2
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c3
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c4
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c5
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c6
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c8
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c7
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c9
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c10
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c12
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c16
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c11
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c13
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c14
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c17
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c18
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c20
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c24
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c32
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c15
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c19
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c21
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c22
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c25
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c26
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c28
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c23
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c27
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c29
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c30
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|abcgate:abc_c31
+A => abc.IN1
+B => abc.IN0
+C => abc.IN1
+abc <= abc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:0:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:1:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:2:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:3:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:4:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:5:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:6:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:7:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:8:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:9:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:10:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:11:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:12:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:13:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:14:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:15:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:16:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:17:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:18:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:19:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:20:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:21:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:22:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:23:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:24:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:25:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:26:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:27:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:28:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:29:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:30:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|brentkung:add_instance|xorgate:\sum_xors:31:sum_xor_i
+A => uneq.IN0
+B => uneq.IN1
+uneq <= uneq.DB_MAX_OUTPUT_PORT_TYPE
+
+

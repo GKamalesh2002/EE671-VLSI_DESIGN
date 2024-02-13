@@ -1,0 +1,34 @@
+-- A DUT entity is used to wrap your design.
+--  This example shows how you can do this for the
+--  Full-adder.
+
+library ieee;
+use ieee.std_logic_1164.all;
+entity DUT is
+   port(input_vector: in std_ulogic_vector(64 downto 0);
+       	output_vector: out std_ulogic_vector(32 downto 0));
+end entity;
+
+architecture DutWrap of DUT is
+   component Bent_Kung_Adder is
+     	port (A, B: in std_ulogic_vector(31 downto 0); Cin: in std_ulogic;
+		sum: out std_ulogic_vector(31 downto 0); Cout: out std_ulogic);
+   end component;
+begin
+
+   -- input/output vector element ordering is critical,
+   -- and must match the ordering in the trace file!
+   add_instance: Bent_Kung_Adder
+ 	
+			port map (
+					-- order of inputs Cin B A
+					
+					A   => input_vector(32 downto 1),
+					B   => input_vector(64 downto 33),
+					Cin => input_vector(0),
+                                        -- order of outputs S Cout
+					sum => output_vector(31 downto 0),
+					Cout => output_vector(32));
+
+end DutWrap;
+

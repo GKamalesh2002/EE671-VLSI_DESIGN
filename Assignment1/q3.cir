@@ -1,0 +1,71 @@
+* Implementation of the given logic using inverters
+* Name: G Kamalesh
+* Roll: 20D070029
+* n : 29
+.param Wp = 1.559U
+.param Lp = 0.18U
+.param Adp = 0.56124P
+.param Asp1 = 0.56124P
+.param Asp2 = 1.12248P
+.param Psp1 = 3.838U
+.param Psp2 = 6.956U
+.param Wn = 0.523U
+.param Ln = 0.18U
+.param Adn = 0.37656P
+
+.param Psn = 2.812U
+.subckt function supply A B C Y
+MP1 Y A Supply Supply cmosp
++ L=0.18U W=1.559U AD = 0.56124P AS = 0.56124P PD = 3.838U PS = 3.838U
+MP2 P1 B Supply Supply cmosp
++ L=0.18U W=3.118U AD = 1.12248P AS = 1.12248P PD = 6.956U PS = 6.956U
+MP3 Y C P1 P1 cmosp
++ L=0.18U W=3.118U AD = 1.12248P AS = 1.12248P PD = 6.956U PS = 6.956U
+MN1 Y A N1 N1 cmosn
++ L=0.18U W=1.046U AD = 0.37656P AS = 0.37656P PD = 2.812U PS = 2.812U
+MN2 N1 B 0 0 cmosn
++ L=0.18U W=1.046U AD = 0.37656P AS = 0.37656P PD = 2.812U PS = 2.812U
+MN3 N1 C 0 0 cmosn
++ L=0.18U W=1.046U AD = 0.37656P AS = 0.37656P PD = 2.812U PS = 2.812U
+.ends
+
+vdd supply 0 dc 1.8
+
+* Load Capacitor
+C3 dutout 0 0.05pF
+
+*device under test
+x3 supply A B C dutout function
+
+.include models-180nm
+
+* Transient analysis with pulse inputs
+* Case (a):
+* A = ‘1’, B = ‘0’, C = 0 → 1 and C = 1 → 0.
+*Va A 0 DC 1.8
+*Vb B 0 DC 0
+*Vc C 0 DC 0 PULSE(0 1.8 0nS 20pS 20pS 4nS 8.0nS)
+
+* Case (b):
+*A = ‘1’, C = ‘0’, B = 0 → 1 and B = 1 → 0.
+*Va A 0 DC 1.8
+*Vb B 0 DC 0 PULSE(0 1.8 0nS 20pS 20pS 4nS 8.0nS)
+*Vc C 0 DC 0
+
+* Case (c):
+*B = ‘0’, C = ‘1’, A = 0 → 1 and A = 1 → 0.
+Vb B 0 DC 0
+Vc C 0 DC 1.8
+Va A 0 DC 0 PULSE(0 1.8 0nS 20pS 20pS 4nS 8.0nS)
+.tran 1pS 35nS 0nS
+.control
+
+run
+plot 4.0+V(A) 8+V(B) 12+V(C) V(dutout)
+meas tran inrise TRIG v(B) VAL=0.18 RISE=2 TARG v(Ck) VAL=1.62 RISE=2
+meas tran infall TRIG v(B) VAL=1.62 FALL=2 TARG v(Ck) VAL=0.18 FALL=2
+meas tran drise TRIG v(dutout) VAL=0.18 RISE=2 TARG v(dutout) VAL=1.62 RISE=2
+meas tran dfall TRIG v(dutout) VAL=1.62 FALL=2 TARG v(dutout) VAL=0.18 FALL=2
+.endc
+.end
+
